@@ -18,9 +18,9 @@ This repository is intended as a submission for a task only.
 - rating
 ### GET /book/:id
 ### POST /book/:id/borrow
-> userId is required
+> URL query parameter `userId` is required
 
 ### POST /book/:id/return
-> userId is required
+> URL query parameter `userId` is required
 > 
 ### GET /borrows/:userId
